@@ -9,13 +9,15 @@ import Diary from "./pages/Diary";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">App.js</div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/new" element={<New />} />
-        <Route path="/edit" element={<Edit />} />
-        <Route path="/diary" element={<Diary />} />
-      </Routes>
+      <div className="App">
+        App.js
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/new" element={<New />} />
+          <Route path="/edit" element={<Edit />} />
+          <Route path="/diary" element={<Diary />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
